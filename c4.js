@@ -190,7 +190,7 @@ Draw.loadPlugin(function (ui) {
     };
     C4Component.prototype.handler = c4StateHandler;
     C4Component.prototype.create = function () {
-        var c4Component = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#3aa6dd;fontColor=#000000;align=center;arcSize=7;strokeColor=#3aa6dd;');
+        var c4Component = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#3aa6dd;fontColor=#FFFFFF;align=center;arcSize=7;strokeColor=#3aa6dd;');
         c4Component.setVertex(true);
         c4Component.setValue(mxUtils.createXmlDocument().createElement('object'));
         c4Component.setAttribute('label', '<span>name</span><div>[Component:&nbsp;<span>technology</span><span>]</span></div><div><br></div><div>Component description</div>');
