@@ -208,7 +208,7 @@ Draw.loadPlugin(function (ui) {
     };
     C4ExecutionEnvironment.prototype.handler = c4StateHandler;
     C4ExecutionEnvironment.prototype.create = function () {
-        var c4ExecutionEnvironment = new mxCell('', new mxGeometry(0, 70, 200, 170), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=3;strokeColor=#FFFFFF;verticalAlign=bottom;');
+        var c4ExecutionEnvironment = new mxCell('', new mxGeometry(0, 70, 200, 170), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=3;strokeColor=#000000;verticalAlign=bottom;');
         c4ExecutionEnvironment.setVertex(true);
         c4ExecutionEnvironment.setValue(mxUtils.createXmlDocument().createElement('object'));
         c4ExecutionEnvironment.setAttribute('label', '<div style="text-align: left">name</div><div style="text-align: left">[applicationAndVersion]</div>');
